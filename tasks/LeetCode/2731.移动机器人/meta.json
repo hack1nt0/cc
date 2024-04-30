@@ -1,0 +1,49 @@
+{
+    "solved": true,
+    "contest": "LeetCode",
+    "problem": "2731.\u79fb\u52a8\u673a\u5668\u4eba",
+    "solver": "sol.cpp",
+    "interact": false,
+    "submit_with_main": false,
+    "tags": 0,
+    "level": "Easy",
+    "cpu": 1000,
+    "mem": 256,
+    "qry": 16,
+    "url": "",
+    "ctime": 1696934297,
+    "mtime": 1696934297,
+    "atime": 1697596012,
+    "tests": [
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "3\n-2 0 2\nRLL\n3\n",
+            "expect_is_code": false,
+            "expect": "8\n",
+            "count": 1,
+            "id": 0
+        },
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "2\n1 0\nRL\n2\n",
+            "expect_is_code": false,
+            "expect": "5\n",
+            "count": 1,
+            "id": 1
+        },
+        {
+            "selected": true,
+            "input_is_code": true,
+            "input": "",
+            "expect_is_code": false,
+            "expect": "",
+            "count": 1,
+            "id": 2
+        }
+    ],
+    "test_inshell": true,
+    "test_verbose": true,
+    "test_parallel": false
+}

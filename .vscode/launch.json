@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "CURRENT",
+            "program": "${fileDirname}/sol.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "CURRENT"
+        },
+    ]
+}

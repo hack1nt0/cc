@@ -1,0 +1,31 @@
+{
+    "solved": true,
+    "contest": "CodeforcesRound897Div2",
+    "problem": "CSalyg1NAndTheMexGame",
+    "solver": "sol.cpp",
+    "interact": true,
+    "submit_with_main": true,
+    "tags": 0,
+    "level": "Easy",
+    "cpu": 3000,
+    "mem": 256,
+    "qry": 16,
+    "url": "https://codeforces.com/contest/1867/problem/C",
+    "ctime": 1696335085,
+    "mtime": 1696335085,
+    "atime": 1697595910,
+    "tests": [
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "1\n5\n1 2 3 5 7\n",
+            "expect_is_code": true,
+            "expect": "jurger.cpp",
+            "count": 1,
+            "id": 0
+        }
+    ],
+    "test_inshell": true,
+    "test_verbose": true,
+    "test_parallel": false
+}

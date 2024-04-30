@@ -1,0 +1,49 @@
+{
+    "solved": false,
+    "contest": "test",
+    "problem": "FFT",
+    "solver": "sol.cpp",
+    "interact": false,
+    "submit_with_main": true,
+    "tags": 0,
+    "level": "Easy",
+    "cpu": 1000,
+    "mem": 256,
+    "qry": 15,
+    "url": null,
+    "ctime": 1696837738,
+    "mtime": 1696837738,
+    "atime": 1697595905,
+    "tests": [
+        {
+            "selected": false,
+            "input_is_code": true,
+            "input": "gen.cpp",
+            "expect_is_code": true,
+            "expect": "jur.cpp",
+            "count": 1,
+            "id": 0
+        },
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "1 6\n6 \n0 8 3 4 4 3 \n",
+            "expect_is_code": false,
+            "expect": "",
+            "count": 1,
+            "id": 1
+        },
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "1 1\n1\n2\n",
+            "expect_is_code": false,
+            "expect": "",
+            "count": 1,
+            "id": 2
+        }
+    ],
+    "test_inshell": false,
+    "test_verbose": true,
+    "test_parallel": false
+}

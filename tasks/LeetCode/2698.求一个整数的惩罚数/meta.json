@@ -1,0 +1,49 @@
+{
+    "solved": true,
+    "contest": "LeetCode",
+    "problem": "2698.\u6c42\u4e00\u4e2a\u6574\u6570\u7684\u60e9\u7f5a\u6570",
+    "solver": "sol.cpp",
+    "interact": false,
+    "submit_with_main": false,
+    "tags": 0,
+    "level": "Easy",
+    "cpu": 1000,
+    "mem": 256,
+    "qry": 16,
+    "url": "",
+    "ctime": 1698202283,
+    "mtime": 1698207415,
+    "atime": 1698208003,
+    "tests": [
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "10\n",
+            "expect_is_code": false,
+            "expect": "182\n",
+            "count": 1,
+            "id": 0
+        },
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "1000\n",
+            "expect_is_code": false,
+            "expect": "",
+            "count": 1,
+            "id": 1
+        },
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "37\n",
+            "expect_is_code": false,
+            "expect": "1478",
+            "count": 1,
+            "id": 2
+        }
+    ],
+    "test_inshell": true,
+    "test_verbose": true,
+    "test_parallel": false
+}

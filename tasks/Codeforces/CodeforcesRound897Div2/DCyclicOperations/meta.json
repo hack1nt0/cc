@@ -1,0 +1,31 @@
+{
+    "solved": true,
+    "contest": "CodeforcesRound897Div2",
+    "problem": "DCyclicOperations",
+    "solver": "sol.cpp",
+    "interact": false,
+    "submit_with_main": true,
+    "tags": 0,
+    "level": "Easy",
+    "cpu": 1000,
+    "mem": 256,
+    "qry": 16,
+    "url": "https://codeforces.com/contest/1867/problem/D",
+    "ctime": 1695756790,
+    "mtime": 1695756790,
+    "atime": 1697595911,
+    "tests": [
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "6\n5 3\n2 3 5 3 4\n4 2\n2 4 3 1\n1 1\n1\n3 1\n1 2 3\n5 3\n5 4 3 2 1\n6 1\n1 2 3 1 5 6\n",
+            "expect_is_code": false,
+            "expect": "YES\nNO\nYES\nYES\nNO\nNO\n",
+            "count": 1,
+            "id": 0
+        }
+    ],
+    "test_inshell": true,
+    "test_verbose": true,
+    "test_parallel": false
+}

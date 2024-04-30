@@ -1,0 +1,40 @@
+{
+    "solved": true,
+    "contest": "LeetCode",
+    "problem": "2530.\u6267\u884cK\u6b21\u64cd\u4f5c\u540e\u7684\u6700\u5927\u5206\u6570",
+    "solver": "sol.cpp",
+    "interact": false,
+    "submit_with_main": false,
+    "tags": 0,
+    "level": "Easy",
+    "cpu": 1000,
+    "mem": 256,
+    "qry": 16,
+    "url": "https://leetcode.cn/problems/maximal-score-after-applying-k-operations",
+    "ctime": 1697597356,
+    "mtime": 1697637371,
+    "atime": 1697637374,
+    "tests": [
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "5 5\n10 10 10 10 10\n",
+            "expect_is_code": false,
+            "expect": "50",
+            "count": 1,
+            "id": 0
+        },
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "5 3\n1 10 3 3 3\n",
+            "expect_is_code": false,
+            "expect": "17",
+            "count": 1,
+            "id": 1
+        }
+    ],
+    "test_inshell": false,
+    "test_verbose": true,
+    "test_parallel": false
+}

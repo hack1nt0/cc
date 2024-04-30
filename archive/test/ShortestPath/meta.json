@@ -1,0 +1,31 @@
+{
+    "solved": false,
+    "contest": "test",
+    "problem": "ShortestPath",
+    "solver": "sol.cpp",
+    "interact": false,
+    "submit_with_main": true,
+    "tags": 0,
+    "level": "Easy",
+    "cpu": 1000,
+    "mem": 256,
+    "qry": 16,
+    "url": "",
+    "ctime": 1696494542,
+    "mtime": 1696494542,
+    "atime": 1697595906,
+    "tests": [
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "3 3 0\n0 1 1\n1 2 1\n0 2 1\n",
+            "expect_is_code": false,
+            "expect": null,
+            "count": 1,
+            "id": 0
+        }
+    ],
+    "test_inshell": true,
+    "test_verbose": true,
+    "test_parallel": false
+}

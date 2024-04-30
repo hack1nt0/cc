@@ -1,0 +1,5 @@
+#ifndef INCLUDED_SPLAYTREE_H
+#define INCLUDED_SPLAYTREE_H
+
+
+#endif

@@ -1,0 +1,40 @@
+{
+    "solved": false,
+    "contest": "LeetCode",
+    "problem": "1726.\u540c\u79ef\u5143\u7ec4",
+    "solver": "sol.cpp",
+    "interact": false,
+    "submit_with_main": false,
+    "tags": 0,
+    "level": "Easy",
+    "cpu": 1000,
+    "mem": 256,
+    "qry": 16,
+    "url": "",
+    "ctime": 1697635913,
+    "mtime": 1697649028,
+    "atime": 1697649032,
+    "tests": [
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "4\n2 3 4 6\n",
+            "expect_is_code": false,
+            "expect": "8",
+            "count": 1,
+            "id": 0
+        },
+        {
+            "selected": true,
+            "input_is_code": false,
+            "input": "5\n1 2 4 5 10\n",
+            "expect_is_code": false,
+            "expect": "16",
+            "count": 1,
+            "id": 1
+        }
+    ],
+    "test_inshell": true,
+    "test_verbose": true,
+    "test_parallel": false
+}

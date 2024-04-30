@@ -1,0 +1,5 @@
+digraph {
+    bgcolor="#000080";
+	node [color=white fontcolor=white];
+	edge [color=white];
+}
