@@ -3,6 +3,7 @@
 V/
 dist/
 *.exe
+*.dSYM/
 
 
 # Prerequisites
