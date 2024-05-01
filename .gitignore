@@ -4,6 +4,9 @@ V/
 dist/
 *.exe
 *.dSYM/
+*.dot
+*.json
+*.svg
 
 
 # Prerequisites
