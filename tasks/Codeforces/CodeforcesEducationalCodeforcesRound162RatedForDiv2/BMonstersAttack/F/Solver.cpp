@@ -1,4 +1,3 @@
-
 #include "debug.h"
 
 typedef long long Long;
@@ -32,3 +31,4 @@ int main() {
     for (int i = 0; i < n; ++i) solve(i);
     return 0;
 }
+
