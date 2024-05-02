@@ -8,6 +8,7 @@ dist/
 *.json
 *.svg
 *.swp
+.idea/
 
 
 # Prerequisites
