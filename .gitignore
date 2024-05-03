@@ -2,6 +2,7 @@
 *~
 V/
 dist/
+current/
 *.exe
 *.dSYM/
 *.dot
