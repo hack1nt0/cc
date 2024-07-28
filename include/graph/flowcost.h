@@ -1,5 +1,0 @@
-
-#ifndef INCLUDED_FLOWCOST_H
-#define INCLUDED_FLOWCOST_H
-
-#endif

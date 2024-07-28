@@ -24,6 +24,7 @@
 
 using namespace std;
 
+
 #ifdef DEBUG
 void __print(int x) { cerr << x; }
 void __print(long x) { cerr << x; }
@@ -40,11 +41,11 @@ void __print(const string &x) { cerr << '\"' << x << '\"'; }
 void __print(bool x) { cerr << (x ? "true" : "false"); }
 
 template <typename T, typename V> void __print(const pair<T, V> &x) {
-    cerr << '{';
+    cerr << '(';
     __print(x.first);
     cerr << ',';
     __print(x.second);
-    cerr << '}';
+    cerr << ')';
 }
 template <typename T> void __print(const complex<T> &x) {
     __print(x.real());
@@ -53,6 +54,20 @@ template <typename T> void __print(const complex<T> &x) {
     cerr << 'i';
 }
 template <typename T> void __print(const vector<T> &xs) {
+    int f = 0;
+    cerr << '[';
+    for (const auto &x : xs)
+        cerr << (f++ ? "," : ""), __print(x);
+    cerr << ']';
+}
+template <typename T> void __print(const deque<T> &xs) {
+    int f = 0;
+    cerr << '[';
+    for (const auto &x : xs)
+        cerr << (f++ ? "," : ""), __print(x);
+    cerr << ']';
+}
+template <typename T, unsigned long N> void __print(const array<T, N> &xs) {
     int f = 0;
     cerr << '[';
     for (const auto &x : xs)
@@ -112,22 +127,5 @@ template <typename T, typename... V> void _print(T t, V... v) {
 //         a = b;
 //     return a;
 // }
-
-// https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0200r0.html
-template <class Fun> class y_combinator_result {
-    Fun fun_;
-
-  public:
-    template <class T>
-    explicit y_combinator_result(T &&fun) : fun_(std::forward<T>(fun)) {}
-
-    template <class... Args> decltype(auto) operator()(Args &&...args) {
-        return fun_(std::ref(*this), std::forward<Args>(args)...);
-    }
-};
-
-template <class Fun> decltype(auto) y_combinator(Fun &&fun) {
-    return y_combinator_result<std::decay_t<Fun>>(std::forward<Fun>(fun));
-}
 
 #endif

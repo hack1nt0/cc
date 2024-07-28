@@ -83,7 +83,6 @@ template <typename T> struct RangeTree {
         if (contains(l, r, root->bounds[0], root->bounds[1])) {
             visit(root);
         } else {
-            root->pushdown();
             update(l, r, visit, root->chds[0]);
             update(l, r, visit, root->chds[1]);
             root->maintain();
@@ -120,6 +119,8 @@ template <typename T> struct RangeTree {
             cerr << "\t" << idx << " -> " << idx * 2 + 2 << "\n";
         }
     }
+#else
+    void dot() {}
 #endif
 };
 
