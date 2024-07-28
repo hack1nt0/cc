@@ -1,6 +1,0 @@
--xc++
--std=c++20 
--Wall
--DDEBUG 
--I
-include/
